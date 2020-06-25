@@ -1,0 +1,128 @@
+/* HTML Elements */
+
+body {
+  /* font-family: "Montserrat"; */
+  font-family: "Merriweather";
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+  /* font-family: "Merriweather"; */
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+p {
+  /* font-family: "Montserrat"; */
+  font-weight: 300;
+}
+
+/* Headings */
+
+.big-heading{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 2.5rem;
+  padding-bottom: 3%;
+}
+.about-heading{
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
+/* Background Color */
+
+.colored-section{
+  background-color: #343a40;
+  color: #F2CB8E;
+  /* padding:3% 0; */
+}
+.white-section{
+  background-color: #fff;
+  color: #343a40;
+}
+
+/* Navigation Bar */
+
+.navbar-title{
+  letter-spacing: 5px;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+/* Title Section */
+
+.logo-img {
+  width: 50%;
+  position:relative;
+  left:3%;
+}
+.mission-statement:hover{
+  color:white;
+}
+.container-fluid {
+  padding: 2% 3%;
+}
+.intro-section{
+  padding-top: 5%;
+}
+
+/* Features Section */
+
+#features {
+  padding: 50px;
+}
+.icon {
+  padding: 50px;
+  color: #343a40;
+}
+.icon:hover {
+  color: #757678;
+}
+
+/* Cities Section */
+
+#cities {
+  padding: 5%;
+}
+.img {
+  padding-bottom: 3%;
+}
+
+/* Realtor Section */
+
+#realtors {
+  padding: 5%;
+}
+
+/* Call To Action Section */
+
+.getStarted-button {
+  margin-top: 3%
+}
+#cta {
+  padding: 5%;
+}
+
+/* Footer Section */
+
+#footer {
+  padding-top: 2%;
+  /* padding-bottom: 2%; */
+}
+.footer-link {
+  padding: 2%;
+  color: #343a40;
+}
+.footer-link:hover {
+  color: #757678;
+}
+.footer-copyright {
+  padding-top: 3%;
+}
